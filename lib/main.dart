@@ -1,3 +1,4 @@
+import 'package:covid_app/covidpatientlist.dart';
 import 'package:covid_app/home.dart';
 import 'package:covid_app/login.dart';
 import 'package:flutter/material.dart';
@@ -5,7 +6,7 @@ import 'package:flutter/widgets.dart';
 
 void main()
 {
-  runApp(App());
+  runApp(Covidlist());
 }
 class App extends StatelessWidget{
 

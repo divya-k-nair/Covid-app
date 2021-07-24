@@ -9,6 +9,7 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
+        margin:EdgeInsets.all(20) ,
           child: Column(
             children: [
               SizedBox(height: 20,),
